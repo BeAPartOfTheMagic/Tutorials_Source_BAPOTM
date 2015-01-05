@@ -1,0 +1,38 @@
+﻿Build started 1/5/2015 6:02:04 PM.
+     1>Project "E:\Google Drive\BeAPartOfTheMagic\HelloWorld\HelloWorld\HelloWorld.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Programs\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\HelloWorld.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt HelloWorld.cpp
+         HelloWorld.cpp
+     1>e:\google drive\beapartofthemagic\helloworld\helloworld\helloworld.cpp(11): error C2679: binary '>>' : no operator found which takes a right-hand operand of type 'const char [5]' (or there is no acceptable conversion)
+                 e:\programs\visual studio 2013\vc\include\istream(485): could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+                 e:\programs\visual studio 2013\vc\include\istream(466): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+                 e:\programs\visual studio 2013\vc\include\istream(448): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+                 e:\programs\visual studio 2013\vc\include\istream(430): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+                 e:\programs\visual studio 2013\vc\include\istream(411): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+                 e:\programs\visual studio 2013\vc\include\istream(392): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+                 e:\programs\visual studio 2013\vc\include\istream(373): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+                 e:\programs\visual studio 2013\vc\include\istream(353): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+                 e:\programs\visual studio 2013\vc\include\istream(335): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+                 e:\programs\visual studio 2013\vc\include\istream(317): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+                 e:\programs\visual studio 2013\vc\include\istream(291): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+                 e:\programs\visual studio 2013\vc\include\istream(272): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+                 e:\programs\visual studio 2013\vc\include\istream(237): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+                 e:\programs\visual studio 2013\vc\include\istream(218): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::_Bool &)'
+                 e:\programs\visual studio 2013\vc\include\istream(211): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+                 e:\programs\visual studio 2013\vc\include\istream(204): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+                 e:\programs\visual studio 2013\vc\include\istream(198): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+                 e:\programs\visual studio 2013\vc\include\istream(1103): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,const char[5]>(std::basic_istream<char,std::char_traits<char>> &&,_Ty (&))'
+                 with
+                 [
+                     _Ty=const char [5]
+                 ]
+                 e:\programs\visual studio 2013\vc\include\istream(1093): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)'
+                 e:\programs\visual studio 2013\vc\include\istream(1086): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)'
+                 e:\programs\visual studio 2013\vc\include\istream(1079): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)'
+                 e:\programs\visual studio 2013\vc\include\istream(1072): or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)'
+                 while trying to match the argument list '(std::istream, const char [5])'
+     1>Done Building Project "E:\Google Drive\BeAPartOfTheMagic\HelloWorld\HelloWorld\HelloWorld.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.07
